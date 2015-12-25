@@ -1,0 +1,20 @@
+CREATE TABLE [BATTLE](
+	[sIndex] [smallint] NOT NULL,
+	[byNation] [tinyint] NOT NULL,
+	[strUserName] [varchar](21) NULL,
+	[byElmoArea] [tinyint] NOT NULL DEFAULT(0),
+	[byKarusArea] [tinyint] NOT NULL DEFAULT(0),
+	[byElmoAdvantage] [tinyint] NOT NULL DEFAULT(0),
+	[byKarusAdvantage] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_1] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_2] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_3] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_4] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_5] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_6] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_7] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_8] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_9] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_10] [tinyint] NOT NULL DEFAULT(0),
+	[byArea_11] [tinyint] NOT NULL DEFAULT(0)
+)
